@@ -22,12 +22,12 @@ class GamesController < ApplicationController
       check << c
     end
 
-    check << call(@word)
-
     if check.include?(false)
       @result = "Sorry but #{@word} can't be made from the given letters"
+    elsif call(@word) == false
+      @result = "Sorry but #{@word} is not an English word"
     else
-      @result = "Congrats #{@word} can be made from the given letters"
+      @result = "Congrats #{@word} is a valid English word"
     end
   end
 
