@@ -1,0 +1,52 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: gray;
+}
+
+.container {
+  margin: 100px;
+}
+
+.card-letters {
+  display: flex;
+  justify-content: space-evenly;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  font-size: 24px;
+}
+
+.card-input {
+  color: gray;
+  padding: 22px;
+}
+
+.card-result {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  border-radius: 6px;
+  padding: 5px;
+}
